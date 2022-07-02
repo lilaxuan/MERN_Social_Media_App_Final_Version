@@ -5,7 +5,7 @@ youtube link: https://www.youtube.com/watch?v=VsUzmlZfYNg
 github link: https://github.com/adrianhajdin/project_mern_memories
 
 Notes For the project: 
-### This is the part1 and part2 of this project. 
+### This is the final version of this project (part6 and part7). 
 
 
 ### Prerequiste:
@@ -26,7 +26,7 @@ Heroku: deploy the web on Heroku
 1. create a `client` and `sevrer` folder 
 2. create a react app in the client folder using `npx create-react-app ./` 
 3. create a package.json file in the server folder using `npm init -y`
-4. Copy the src folder of the client and server folder from https://github.com/adrianhajdin/project_mern_memories
+4. Copy the `package.json` file and the whole `src` folder of the client and server folder from https://github.com/adrianhajdin/project_mern_memories
 5. Create your own ddb instance on https://www.mongodb.com/atlas/database
 6. replace the connect code in the index.js under server folder based on the DDB you created (refer to section)
 7. Run `npm install` under client and server folder
