@@ -30,16 +30,14 @@ Heroku: deploy the web on Heroku
 5. Create your own ddb instance on https://www.mongodb.com/atlas/database
 6. replace the connect code in the index.js under server folder based on the DDB you created (refer to section)
 7. Run `npm install` under client and server folder
-8. Run `npm start` under the server folder, and then run the `npm start` under the client folder. If the server and the client are under the same folder, then only need to run `npm start` once.  
-
+8. Run `npm start` under the server folder, and then run the `npm start` under the client folder. If the server and the client are under the same folder, then only need to run `npm start` once. (If the app has the webpack vesion error, add the `.env` file in the client folder and added `SKIP_PREFLIGHT_CHECK=true`) 
 
 
 ### How the run the app:
 under client and server folder, run `npm install` to install all the dependencies
 sudo npm install -g nodemon // install the nodemon for the node.js server to run
 under the server folder, run `npm start` to start the server and connect to the ddb
-under the client folder, run `npm start` to start the front end ui. // in order to successfully run the app, i added the `.env` file
-
+under the client folder, run `npm start` to start the front end ui. // in order to successfully run the app, i added the `.env` file and added `SKIP_PREFLIGHT_CHECK=true`
 
 ### Process of developing the web app: 
 npm init -y // add a new package.json file
